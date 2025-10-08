@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/editMealName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Meal Name" />
+
+        <EditText
+            android:id="@+id/editCalories"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:hint="Calories"
+            android:layout_marginTop="8dp" />
+
+        <EditText
+            android:id="@+id/editCarbs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:hint="Carbs"
+            android:layout_marginTop="8dp" />
+
+        <EditText
+            android:id="@+id/editFat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:hint="Fat"
+            android:layout_marginTop="8dp" />
+
+        <EditText
+            android:id="@+id/editProtein"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:hint="Protein"
+            android:layout_marginTop="8dp" />
+
+        <EditText
+            android:id="@+id/editServingSize"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Serving Size"
+            android:layout_marginTop="8dp" />
+    </LinearLayout>
+</ScrollView>
