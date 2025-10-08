@@ -1,0 +1,29 @@
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/home"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/nav_coach"
+        android:title="Coach"
+        android:icon="@drawable/coach"
+        />
+
+    <item
+        android:id="@+id/add"
+        android:title="Add"/>
+
+    <item
+        android:id="@+id/mealPlanner"
+        android:title="Meal Planner"
+        android:icon="@drawable/ic_meal_planner"
+        />
+
+    <item
+        android:id="@+id/nav_help"
+        android:icon="@drawable/help"
+        android:title="Help" />
+</menu>

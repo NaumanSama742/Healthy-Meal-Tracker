@@ -1,0 +1,154 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include layout="@layout/app_bar" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:paddingBottom="100dp">
+
+            <!-- Full Name -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Full Name"
+                android:textStyle="bold"
+                android:textColor="@color/primary"
+                android:textSize="16sp"/>
+
+            <EditText
+                android:id="@+id/editTextFullName"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Enter your full name"
+                android:background="@drawable/rounded_edittext"
+                android:padding="12dp" />
+
+            <!-- Age -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Age"
+                android:textStyle="bold"
+                android:layout_marginTop="12dp"
+                android:textColor="@color/primary"
+                android:textSize="16sp"/>
+
+            <EditText
+                android:id="@+id/editTextAge"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Enter your age"
+                android:inputType="number"
+                android:background="@drawable/rounded_edittext"
+                android:padding="12dp" />
+
+            <!-- Gender -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gender"
+                android:textStyle="bold"
+                android:layout_marginTop="12dp"
+                android:textColor="@color/primary"
+                android:textSize="16sp"/>
+
+            <RadioGroup
+                android:id="@+id/genderGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+                <RadioButton
+                    android:id="@+id/maleRadio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Male" />
+
+                <RadioButton
+                    android:id="@+id/femaleRadio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Female" />
+
+            </RadioGroup>
+
+            <!-- Height -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Select Height (in ft)"
+                android:textStyle="bold"
+                android:layout_marginTop="12dp"
+                android:textColor="@color/primary"
+                android:textSize="16sp"/>
+
+            <!-- Weight -->
+            <Spinner
+                android:id="@+id/heightSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rounded_edittext" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Weight (kg)"
+                android:textStyle="bold"
+                android:layout_marginTop="12dp"
+                android:textColor="@color/primary"
+                android:textSize="16sp"/>
+
+            <EditText
+                android:id="@+id/editTextWeight"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Enter weight"
+                android:inputType="numberDecimal"
+                android:background="@drawable/rounded_edittext"
+                android:padding="12dp" />
+
+
+            <!-- Goal -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Select Goal"
+                android:textStyle="bold"
+                android:layout_marginTop="12dp"
+                android:textColor="@color/primary"
+                android:textSize="16sp"/>
+
+            <Spinner
+                android:id="@+id/goalSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/rounded_edittext"
+                android:layout_marginTop="10dp"/>
+
+            <!-- Save Button -->
+            <Button
+                android:id="@+id/buttonSave"
+                android:text="Save"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textColor="@android:color/white"
+                android:backgroundTint="@color/secondary" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
