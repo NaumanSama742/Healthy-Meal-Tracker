@@ -46,9 +46,6 @@ Connect Google Fit for activity tracking.
 
 Admin dashboard for backend management.
 
-✨ Screenshots
-Add popular screens below (dashboard, meal entry, suggestions, admin panel) using Markdown image links if available
-
 🤝 Contributing
 Fork the repo, create a feature branch, submit PRs and issues.
 
